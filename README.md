@@ -6,7 +6,7 @@ Provides various pre-trained models for Apple's MLX framework.
 Open your terminal and run the following command:
 
 ```bash
-pip install "git+https://github.com/RahulBhalley/mlx-models.git"
+pip3 install "git+https://github.com/RahulBhalley/mlx-models.git"
 ```
 
 This command will fetch the latest version of the MLX-Models package from the GitHub repository and install it on your system.
@@ -22,10 +22,12 @@ import mlx.models as mlx_models
 
 # Load the pre-trained VGG19 model
 vgg19 = mlx_models.vision.VGG19(load_weights=True)
-```
 
-This will initialize the VGG19 model with pre-trained weights.
-å
+# Load the pre-trained AlexNet model
+alexnet = mlx_models.vision.AlexNet(load_weights=True)
+```
+This will initialize the respective models with pre-trained weights.
+
 ### Available Models
 
 At present, the MLX-Models package primarily supports vision models. Later, we'll add support for audio and text models as well.
