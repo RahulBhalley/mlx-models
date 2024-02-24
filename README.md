@@ -15,7 +15,7 @@ This command will fetch the latest version of the MLX-Models package from the Gi
 
 ### Loading Pre-trained Models
 
-MLX-Models simplifies the process of loading and utilizing pre-trained models. For instance, to load a pre-trained VGG19 model, you can use the following code snippet:
+MLX-Models simplifies the process of loading and utilizing pre-trained models. For instance, to load a pre-trained models, you can use the following code snippet:
 
 ```python
 import mlx.models as mlx_models
